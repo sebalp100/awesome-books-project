@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#books,
+.newBook {
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  width: 350px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+input {
+  width: 180px;
+  margin-bottom: 15px;
+}
+
+#add {
+  width: 40px;
+}
+
+.removeButton {
+  width: 70px;
+}
